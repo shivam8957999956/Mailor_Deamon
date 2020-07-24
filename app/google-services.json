@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "36924492745",
+    "firebase_url": "https://mailor-deamon.firebaseio.com",
+    "project_id": "mailor-deamon",
+    "storage_bucket": "mailor-deamon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36924492745:android:39487071312700db95b618",
+        "android_client_info": {
+          "package_name": "com.example.mailordeamon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36924492745-4ulkr21g39jq9gv703ckbk8gvccjjags.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRX6i-MvCWxY99ghEhA1yOrpQJgXG9r0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36924492745-4ulkr21g39jq9gv703ckbk8gvccjjags.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

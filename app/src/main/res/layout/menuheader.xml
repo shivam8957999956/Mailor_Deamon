@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/menu_header_shape"
+    android:padding="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search news by category"
+        android:textAllCaps="true"
+        android:fontFamily="@font/cairo_semibold"
+        android:textSize="50sp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

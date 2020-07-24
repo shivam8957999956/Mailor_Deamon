@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/live_channels"
+            android:icon="@drawable/live_news_icon"
+            android:iconTint="@color/red"
+            android:title="Live News Channels" />
+
+        <item android:id="@+id/news_sites"
+            android:title="News websites"
+            android:icon="@drawable/websites_icon"
+            />
+
+    </group>
+
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/politics"
+                    android:icon="@drawable/politics_icon"
+                    android:title="National politics"
+                    android:iconTint="@color/black"
+                    />
+                <item
+                    android:id="@+id/Covid_19"
+                    android:icon="@drawable/politics_icon"
+                    android:iconTint="@color/black"
+                    android:title="Covid Report" />
+                <item
+                    android:id="@+id/sport"
+                    android:icon="@drawable/sports_menu_icon"
+                    android:iconTint="@color/black"
+                    android:title="Sports" />
+                <item
+                    android:id="@+id/entertainment"
+                    android:icon="@drawable/entertainment"
+                    android:iconTint="@color/black"
+                    android:title="Entertainment" />
+                <item
+                    android:id="@+id/technology"
+                    android:iconTint="@color/black"
+                    android:icon="@drawable/politics_icon"
+                    android:title="Technology" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="communicate us">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Share"
+                    android:icon="@drawable/share_icon"
+                    android:iconTint="@color/black"
+                    android:id="@+id/share"/>
+                <item
+                    android:id="@+id/feedback"
+                    android:icon="@drawable/feedback_icon"
+                    android:iconTint="@color/black"
+                    android:title="Feedback" />
+
+
+            </group>
+
+
+        </menu>
+
+
+
+    </item>
+
+</menu>
